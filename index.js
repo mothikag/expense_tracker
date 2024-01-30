@@ -1,6 +1,6 @@
 const express = require('express')
 const mongoose = require('mongoose');
-const Expense = require('./models/expense');
+const Expense = require('./expense');
 const app = express()
 const port = 3000;
 mongoose.connect('mongodb+srv://mothikag20msc:mothika2523@cluster0.h5rgzih.mongodb.net/expenses?retryWrites=true&w=majority',{
